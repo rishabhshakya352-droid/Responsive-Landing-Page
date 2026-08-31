@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    color: white;
+
+    padding: 15px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #4da6ff;
+}
+
+/* Hero */
+.hero {
+    height: 80vh;
+
+    background-color: #e9f2f8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    background-color: #2878b5;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    font-size: 16px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #1d5d8c;
+    transform: scale(1.05);
+}
+
+/* About */
+.about {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.about h2,
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Contact */
+.contact {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+
+/* ------------------------- */
+/* Tablet - around 768px */
+/* ------------------------- */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 5%;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+}
+
+
+/* ------------------------- */
+/* Mobile - around 480px */
+/* ------------------------- */
+
+@media (max-width: 480px) {
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px
+    }
+
+    .hero {
+        height: 65vh;
+    }
+
+    .about,
+    .contact {
+        padding: 40px 20px;
+    }
+}
