@@ -14,6 +14,8 @@ This is a simple Responsive Landing Page.
 2. Open the project folder in VS Code.
 3. Open index.html in your browser.
 4. You can also use the Live Server extension in VS Code.
-5. https://github.com/rishabhshakya352-droid/Responsive-Landing-Page/edit/main/README.md
+
+## GitHub Repository
+1. https://github.com/rishabhshakya352-droid/Responsive-Landing-Page/edit/main/README.md
 
 
